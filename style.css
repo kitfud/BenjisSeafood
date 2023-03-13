@@ -1,0 +1,51 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: lightblue;
+  font-family: 'Tilt Neon', cursive;
+}
+
+h1{
+  margin:10px 10px 10px 10px;
+  text-align: center;
+}
+
+#learn{
+  margin-top:20px;
+  text-align: center;
+  background-color: white;
+  padding:20px 20px 20px 20px;
+}
+
+#learn:hover{
+  background-color: yellow;
+}
+
+#location, #scenery, #venu{
+  width:300px; 
+  padding:10px 10px 10px 10px;
+}
+
+#description{
+  font-style: italic;
+}
+
+.d-block{
+  width:50% !important;
+  position: relative !important; 
+  left:25%; 
+}
+
+.card{
+  margin-top:40px !important;
+  margin:auto;
+  height:350px;
+}
+
+.card>img{
+  height:200px;
+}
+
